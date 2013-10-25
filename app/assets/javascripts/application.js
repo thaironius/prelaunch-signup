@@ -31,7 +31,7 @@ $('document').ready(function() {
       data: dataString,
       success: function(data) {
         $('#request-invite').html(data);
-        loadSocial();
+        
       }
     });
     return false;
@@ -39,7 +39,7 @@ $('document').ready(function() {
 
 })
 
-// load social sharing scripts if the page includes a Twitter "share" button
+/*// load social sharing scripts if the page includes a Twitter "share" button
 function loadSocial() {
 
     //Twitter
@@ -67,3 +67,4 @@ function loadSocial() {
       $.getScript('https://apis.google.com/js/plusone.js');
     }
 }
+*/
